@@ -1,0 +1,26 @@
+/*  add to jquery mobile theme */
+
+/* content configurations. */
+.ui-grid-e, .ui-gird-f{ overflow: hidden; }
+.ui-block-f, .ui-block-g{ margin: 0; padding: 0; border: 0; float: left; min-height:1px;}
+/* grid e: 16.6/16.6/16.6/16.6/16.6/16.6/ */
+.ui-grid-e .ui-block-a, .ui-grid-e .ui-block-b, .ui-grid-e .ui-block-c, .ui-grid-e .ui-block-d, .ui-grid-e .ui-block-e, .ui-grid-e .ui-block-f { width: 16.66666%; }
+.ui-grid-e .ui-block-a { clear: left; }
+/* grid f: 14.23/14.23/14.23/14.23/14.23/14.23/14.23/ */
+.ui-grid-f .ui-block-a, .ui-grid-f .ui-block-b, .ui-grid-f .ui-block-c, .ui-grid-f .ui-block-d, .ui-grid-f .ui-block-e , .ui-grid-f .ui-block-f, .ui-grid-f .ui-block-g  { width: 14.22222%; }
+.ui-grid-f .ui-block-a { clear: left; }
+/* fixed page header & footer configuration */
+
+/*
+.add_page{width:480px;height:800px;border:#000 1px double;margin:0 auto 0 auto;}
+.index_page{width:480px;height:800px;border:#000 1px double;margin:0 auto 0 auto;}
+.schedules_page{width:480px;height:800px;border:#000 1px double;margin:0 auto 0 auto;}
+*/
+.header{width: 100%;height:40px;padding:10px;line-height:20px;text-align:center;font-size:16px; background-color:#E8591A;}
+.navbar{width: 100%;position:absolute; bottom:0px; color:red;}
+.picture{ width: 100%;height: 20%;margin: 0px;padding: 0px;}
+.hot_title{font-family: Georgia; color:black; font-weight: 900 ; margin: 2px; font-size: 13px}
+
+*{font-size: medium;}
+.navbar .ui-grid-d .ui-block-a .ui-btn,.navbar .ui-grid-d .ui-block-b .ui-btn,.navbar .ui-grid-d .ui-block-c .ui-btn,.navbar .ui-grid-d .ui-block-d .ui-btn,.navbar .ui-grid-d .ui-block-e .ui-btn{background-color:E8591A;}
+.login_title{font-family: Georgia;text-align:center; color:#E8591A; font-size: 30px }
